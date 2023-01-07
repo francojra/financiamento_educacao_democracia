@@ -6,6 +6,11 @@
 
 # Sobre os dados ---------------------------------------------------------------------------------------------------------------------------
 
+### Na maioria dos países, a educação básica não é vista apenas como um direito, mas também como
+### um dever - governos basicamente esperam aumentar o acesso da população à educação básica, enquanto
+### cidadãos frequentemente são obrigados por lei a atingir um determinado nível educacional.
+
+### 
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
