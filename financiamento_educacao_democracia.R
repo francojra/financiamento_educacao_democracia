@@ -29,6 +29,14 @@
 ### e tornos de grupos de idades sugerem que reduções futuras na desigualdade são ainda esperadas em países
 ### desenvolvidos.
 
+### Recentes dados da UNESCO nos diz que o mundo está financiando com gastos governamentais a educação
+### hoje, e esses fundos adicionais públicos para educação não são necessariamente à custa de outros 
+### setores governamentais. Ainda além dessas tendências globais, existe ainda substancial heterogeneidade
+### entre países e entre regiões. Em países de alta renda, por exemplo, as famílias apresentam maiores
+### despesas na educação para os níveis superiores do que nos níveis mais baixos, mas em países de baixa
+### renda esse não é o caso. Malawui é um exemplo: educação superior é quase completamento subsidiada
+### pelo estado, ainda que as famílias contribuam quase 20% dos custos na educação primária.
+
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
 library(tidyverse)
