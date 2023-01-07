@@ -37,6 +37,14 @@
 ### renda esse não é o caso. Malawui é um exemplo: educação superior é quase completamento subsidiada
 ### pelo estado, ainda que as famílias contribuam quase 20% dos custos na educação primária.
 
+### Seguindo o acordo dos Objetivos de Desenvolvimento do Milênio, a primeira década do século 21 viu
+### um importante aumento no fluxo de financiamento internacional sob o guarda-chuva da assistência de
+### desenvolvimento. Estimativas recentes mostram que a assistência ao desenvolvimento para educação tem
+### parado de crescer desde 2010, com notável redução do fluxo para educação primária. Estas mudanças
+### da priorização da assistência do desenvolvimento para educação entre níveis e regiões, pode ter 
+### potencialmente grandes efeitos de distribuição, particularmente dentro de países de baixa renda
+### que dependem substancialmente dessas fontes de financiamento para educação básica.
+
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
 library(tidyverse)
