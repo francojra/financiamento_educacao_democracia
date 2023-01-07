@@ -10,7 +10,24 @@
 ### um dever - governos basicamente esperam aumentar o acesso da população à educação básica, enquanto
 ### cidadãos frequentemente são obrigados por lei a atingir um determinado nível educacional.
 
-### 
+### Isso nem sempre foi o caso: os avanços dessas ideias iniciou apenas no século 19, quando a maioria
+### dos países industrializados de hoje começou a expandir a educação primária, principalmente através
+### de financiamentos públicos e intervenção governamental. Dados desse período inicial mostram que
+### os fundos governamentais para financiar a expansão da educação vem de diferentes fontes, mas
+### especificamente taxas em nível local joga um papel importante. O papel histórico do financiamento
+### local para escolas públicas é importante para ajudar-nos a compreender mudanças - ou persistências -
+### nas desigualdades regionais.
+
+### A segunda metade do século 20 marcou o início da expansão da educação como um fenômeno global.
+### Dados disponíveis mostram que nos anos 90 os gastos do governo com educação como uma porcentagem
+### dos rendimentos nacionais em muitos países em desenvolvimento foram próximos a média observada
+### em países desenvolvidos.
+
+### A expansão da educação global no século 20 resultou em uma redução histórica na desigualdade da 
+### educação em todo o mundo: no período de 1960 a 2010 a desigualdade da educação foi reduzindo a cada ano
+### para todas as idades em todas as regiões do mundo. Estimativas recentes da desigualdade educacional
+### e tornos de grupos de idades sugerem que reduções futuras na desigualdade são ainda esperadas em países
+### desenvolvidos.
 
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
