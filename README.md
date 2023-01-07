@@ -1,1 +1,1 @@
-# financiamento_educacao_democracia_autocracia
+# Financiamento em educação pública - Países democratas
