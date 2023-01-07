@@ -26,3 +26,12 @@ fin_educ <- fin_educ %>%
   select(-Code) %>%
   rename(fin_educa = Public.Expenditure.on.Education..Tanzi...Schuktnecht..2000..) %>%
   view()
+
+fin_educ1 <- fin_educ %>%
+  filter(Entity %in% c("Norway", "France",
+                       "United Kingdom", "Japan")) %>%
+  group_by(Entity) %>%
+  summarise(media = mean(fin_educa),
+            sd = sd(fin_educa), n = n(),
+            se = sd/sqrt(n)) %>%
+  view()
