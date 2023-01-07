@@ -14,4 +14,15 @@ library(cols4all)
 library(hrbrthemes)
 library(ggthemes)
 
+# Carregar dados ---------------------------------------------------------------------------------------------------------------------------
 
+fin_educ <- read.csv("public-education-expenditure-as-share-of-gdp.csv")
+view(fin_educ)
+names(fin_educ)
+
+# Manipular dados --------------------------------------------------------------------------------------------------------------------------
+
+fin_educ <- fin_educ %>%
+  select(-Code) %>%
+  rename(fin_educa = Public.Expenditure.on.Education..Tanzi...Schuktnecht..2000..) %>%
+  view()
