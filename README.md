@@ -1,0 +1,1 @@
+# financiamento_educacao_democracia_autocracia
