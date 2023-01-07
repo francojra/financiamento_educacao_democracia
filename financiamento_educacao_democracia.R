@@ -45,6 +45,24 @@
 ### potencialmente grandes efeitos de distribuição, particularmente dentro de países de baixa renda
 ### que dependem substancialmente dessas fontes de financiamento para educação básica.
 
+### Ao anaçisar correlatos, determinantes e consequências do consumo da educação, os dados macro indicam
+### que despesas sobre educação não explicam bem diferenças entre países nos resultados de aprendizagem.
+### Isso é um indicativo de uma complexa 'função da produção de educação' em que para alguns dados níveis
+### de despesas, os resultados alcançados dependem crucialmente da mistura de entradas.
+
+### Evidências disponíveis especificamente sobre a importância de entradas para produzir educação,
+### sugerem que resultados de aprendizgem podem ser mais sensíveis a aperfeiçoamentos na qualidade
+### dos professores, que na melhoria do tamanhos de turmas. Em relação aos investimentos familiares,
+### a evidência de um recente experimento sugere que intervenções que aumentam os benefícios na frequência
+### escolar (ex. transferência de dinheiro condicionais) são particularmente prováveis para aumentar
+### tempo de estudantes na escola; e aqueles que incentivam o esforço acadêmico (ex. bolsas de estudos)
+### são prováveis para melhorar resultados de aprendizagem.
+
+### Experimentos políticos tem também mostrado que o investimento pré-escolar em inputs ao lado da procura
+### leva a grandes impactos positivos na educação - e em outro importante resultado futuro na vida.
+### O ambiente que a criança é exposta no início da vida, apresenta uma importante função em formar
+### as habilidades, comportamentos e talentos dela.
+
 # Carregar pacotes -------------------------------------------------------------------------------------------------------------------------
 
 library(tidyverse)
@@ -101,7 +119,7 @@ ggplot(fin_educ2, aes(x = factor(Year), y = fin_educa,
   geom_point(shape = 15, size = 2.5) +
   geom_line(size = 1.2) +
   scale_color_manual(values = c("#88CCEE", "#CC6677",
-                               "#DDCC77", "#117733")) +
+                                "#DDCC77", "#117733")) +
   labs(x = "Tempo (anos)", 
        y = "Despesas públicas de educação\n como percentagem do PIB",
        col = "Países") +
