@@ -163,9 +163,11 @@ ggplot(fin_educ1_s, aes(x = fct_reorder(Entity, media), y = media, fill = Entity
                 width = 0.2, size = 0.8) +
   scale_y_continuous(expand = expansion(mult = c(0.0))) +
   scale_fill_manual(values = c("#88CCEE", "#CC6677",
-                               "#DDCC77", "#117733")) +
-  scale_x_discrete(labels = c("França", "Japão", "Reino Unido", "Noruega")) +
-  labs(x = "Países", y = "Despesas públicas de educação\n como percentagem do PIB") +
+                               "#DDCC77", "#117733",
+                               "#332288")) +
+  scale_x_discrete(labels = c("China", "Japão", "Alemanha", 
+                              "América do Norte", "Cuba")) +
+  labs(x = "Países", y = "Despesas totais na educação (%)") +
   theme_ipsum(axis_text_size = 14, axis_title_size = 16) +
   theme(legend.position = "none",
         axis.text = element_text(color = "black"))
