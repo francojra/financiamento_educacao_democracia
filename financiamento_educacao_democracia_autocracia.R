@@ -101,6 +101,8 @@ fin_educ2 <- fin_educ %>%
                        "United Kingdom", "Japan")) %>%
   view()
 
+# # ----------------------------------------------------------------------------------------------------------------------------------------
+
 fin_educ_s <- fin_educ_s %>%
   select(-Code) %>%
   rename(fin_educa = Government.expenditure.on.education..total....of.GDP.) %>%
@@ -146,7 +148,8 @@ ggplot(fin_educ2, aes(x = factor(Year), y = fin_educa,
   geom_point(shape = 15, size = 2.5) +
   geom_line(size = 1.2) +
   scale_color_manual(values = c("#88CCEE", "#CC6677",
-                                "#DDCC77", "#117733")) +
+                                "#DDCC77", "#117733"),
+                     labels = c("França", "Japão", "Noruega", "Reino Unido")) +
   labs(x = "Tempo (anos)", 
        y = "Despesas públicas de educação\n como percentagem do PIB",
        col = "Países") +
