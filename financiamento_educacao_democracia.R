@@ -76,6 +76,10 @@ fin_educ <- read.csv("public-education-expenditure-as-share-of-gdp.csv")
 view(fin_educ)
 names(fin_educ)
 
+fin_educ_s <- read.csv("total-government-expenditure-on-education-gdp.csv")
+view(fin_educ_s)
+names(fin_educ_s)
+
 # Manipular dados --------------------------------------------------------------------------------------------------------------------------
 
 fin_educ <- fin_educ %>%
@@ -95,6 +99,25 @@ fin_educ1 <- fin_educ %>%
 fin_educ2 <- fin_educ %>%
   filter(Entity %in% c("Norway", "France",
                        "United Kingdom", "Japan")) %>%
+  view()
+
+fin_educ_s <- fin_educ_s %>%
+  select(-Code) %>%
+  rename(fin_educa = Government.expenditure.on.education..total....of.GDP.) %>%
+  view()
+
+fin_educ1_s <- fin_educ_s %>%
+  filter(Entity %in% c("North America", "Japan", "Germany",
+                       "China", "Cuba")) %>%
+  group_by(Entity) %>%
+  summarise(media = mean(fin_educa),
+            sd = sd(fin_educa), n = n(),
+            se = sd/sqrt(n)) %>%
+  view()
+
+fin_educ2_s <- fin_educ_s %>%
+  filter(Entity %in% c("North America", "Japan", "Germany",
+                       "China", "Cuba")) %>%
   view()
 
 # Gráficos ---------------------------------------------------------------------------------------------------------------------------------
