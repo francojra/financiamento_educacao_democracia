@@ -182,17 +182,20 @@ ggplot(fin_educ2_s, aes(x = Year, y = fin_educa,
                      labels = c("China", "Cuba", "Alemanha",
                                 "Japão", "América do Norte")) +
   labs(x = "Tempo (anos)", 
-       y = "Despesas públicas de educação\n como percentagem do PIB",
+       y = "Despesas totais na educação (%)",
        col = "Países") +
   theme_ipsum(axis_text_size = 14, axis_title_size = 16) +
   theme(axis.text = element_text(color = "black")) 
 
-ggplot(fin_educ3_s, aes(x = factor(Year), y = fin_educa, 
+ggplot(fin_educ3_s, aes(x = Year, y = fin_educa, 
                       group = Entity, color = Entity)) +
-  geom_point(shape = 15, size = 2.5) +
-  geom_line(size = 1.2) +
-  scale_color_manual(values = c("#88CCEE", "#CC6677",
-                                "#DDCC77", "#117733")) +
+  geom_line(size = 2) +
+  scale_color_manual(values = c('#1B9E77', '#999999','#E69F00'),
+                     labels = c("Brasil", "China", "América do Norte")) +
   labs(x = "Tempo (anos)", 
-       y = "Despesas públicas de educação\n como percentagem do PIB",
-       col = "Países")
+       y = "Despesas totais na educação (%)",
+       col = "Países") +
+  theme_light() +
+  theme(axis.title = element_text(size = 18),
+        axis.text = element_text(color = "black", size = 15),
+        legend.text = element_text(size = 12))
