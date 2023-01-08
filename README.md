@@ -1,4 +1,4 @@
-# Financiamento em educação pública - Países democratas
+# Financiamento em educação pública - Países democratas e autocratas
 
 ### Autoria do script: Jeanne Franco
 ### Data: 06/01/23
